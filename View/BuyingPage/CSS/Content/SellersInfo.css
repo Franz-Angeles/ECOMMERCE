@@ -52,24 +52,23 @@ hr {
   gap: 20px;
   height: 80px;
   padding: 30px;
-  width: 500px;
+  width: 100%;
 }
 .div1 {
   width: 250px;
-}
-#box {
-  justify-self: center;
-  height: 550px;
-  width: 1197px;
-  border: 1px solid rgba(182, 47, 216, 0.185);
-  margin-top: 20px;
-  background-color: rgb(248, 248, 248);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
 }
 .divs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+#next {
+  border: 1px solid rgba(182, 47, 216, 0.185);
+  margin-top: 20px;
+  background-color: rgb(248, 248, 248);
+  height: 500px;
+  width: 1199px;
+  display: flex;
+  justify-self: center;
+  border-radius: 5px;
 }
