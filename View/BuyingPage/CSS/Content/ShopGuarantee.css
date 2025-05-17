@@ -16,7 +16,6 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  align-content: center;
 }
 button {
   width: 155px;
@@ -25,6 +24,7 @@ button {
 }
 .btnside {
   text-align: center;
+  align-items: center;
 }
 .btnimg {
   height: 20px;
