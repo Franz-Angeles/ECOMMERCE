@@ -68,3 +68,6 @@ hr {
   flex-direction: row;
   justify-content: space-between;
 }
+.griddata {
+  color: rgb(181, 0, 253);
+}
