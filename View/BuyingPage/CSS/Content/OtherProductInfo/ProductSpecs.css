@@ -5,12 +5,13 @@
   justify-self: center;
   width: 1199px;
   margin-top: 20px;
+
   /* DIVIDER FOR PRODUCTS SPECS AND SHOP VOUCHER */
 }
 #ProductSPECS {
   border: 1px solid rgba(182, 47, 216, 0.185);
   background-color: rgb(248, 248, 248);
-  height: 700px;
+  height: 1000px;
   width: 78.2%;
   display: flex;
   justify-self: center;
@@ -22,8 +23,46 @@
   height: 97%;
   padding: 10px;
 }
-#prodspecs {
+.prodspecs {
   padding: 20px 0 20px 20px;
-  font-size: 20px;
+  font-size: 17px;
   background: rgba(181, 0, 253, 0.178);
+}
+#ProdDesc {
+  margin-top: 20px;
+}
+#specsinfo {
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+}
+.ybb {
+  width: 200px;
+  font-size: 15px;
+  font-weight: lighter;
+  opacity: 60%;
+  margin: 0 0 20px 0;
+}
+#ybb1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+.QRH {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 0;
+  height: 40px;
+  font-size: 15px;
+}
+.CtgAs {
+  text-decoration: none;
+  color: rgba(181, 0, 253, 0.788);
+  margin: 0 5px 0 5px;
+  padding: 0;
+}
+p {
+  font-size: 15px;
+  padding: 5px 0px 5px 20px;
 }
